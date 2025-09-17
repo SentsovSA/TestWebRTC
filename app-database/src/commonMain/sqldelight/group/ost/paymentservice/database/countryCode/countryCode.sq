@@ -1,0 +1,15 @@
+CREATE TABLE IF NOT EXISTS countryCode (
+    id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+    name TEXT NOT NULL,
+    code INTEGER NOT NULL
+);
+
+getAll:
+SELECT * FROM countryCode;
+
+insert:
+INSERT OR REPLACE INTO countryCode (code, name) VALUES(?, ?);
+
+deleteAll:
+DELETE FROM countryCode;
+

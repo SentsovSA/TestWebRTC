@@ -1,0 +1,4 @@
+<resources>
+    <string name="notification_channel_name_push">Push-notification</string>
+    <string name="notification_channel_description_push">Push-notification</string>
+</resources>

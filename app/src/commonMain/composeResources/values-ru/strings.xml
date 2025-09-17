@@ -1,0 +1,56 @@
+<resources>
+    <string name="test">тест</string>
+
+    <string name="login_screen_email_or_phone">E-mail</string>
+    <string name="login_screen_email">E-mail</string>
+    <string name="login_screen_password">Пароль</string>
+    <string name="login_screen_restore_password">Восстановить пароль</string>
+    <string name="login_screen_login_button">Войти</string>
+    <string name="login_screen_registration_button">Зарегистрироваться</string>
+    <string name="login_screen_phone_or_password_error">Неверные номер телефона или пароль</string>
+    <string name="login_screen_email_or_password_error">Неверные E-mail или пароль</string>
+
+    <string name="registration_screen_title">Регистрация</string>
+    <string name="registration_screen_button">Зарегистрироваться</string>
+    <string name="registration_screen_license_1">Нажимая на кнопку, вы принимаете\n</string>
+    <string name="registration_screen_license_2">лицензионное соглашение</string>
+
+    <!-- BEGIN PHONE VERIFICATION -->
+    <string name="phone_verification_continue_button">Продолжить</string>
+    <string name="phone_verification_title">Введите номер телефона</string>
+    <string name="phone_verification_tips">Вы получите СМС с кодом или звонок от робота для %1$s</string>
+    <string name="phone_verification_registration">продолжения регистрации</string>
+    <string name="phone_verification_restore_password">восстановления пароля</string>
+    <string name="phone_verification_privacy_policy_part_1">Вводя свой номер, вы соглашаетесь с </string>
+    <string name="phone_verification_privacy_policy_part_2">Политикой конфиденциальности</string>
+    <string name="phone_verification_country_code_title">Код страны</string>
+    <string name="phone_verification_user_already_exists">На этот номер телефона уже зарегистрирован аккаунт</string>
+    <string name="phone_verification_timeout">Повторите запрос через %1$d:%2$d:%3$d</string>
+    <string name="phone_verification_max_attempts">Достигнуто максимальное количество попыток. Попробуйте снова через 2 часа.</string>
+    <!-- END PHONE VERIFICATION -->
+
+    <!-- BEGIN ERRORS -->
+    <string name="error_connect_timeout">Время подключения к серверу истекло</string>
+    <string name="error_request_timeout">Превышен тайм-аут запроса</string>
+    <string name="error_socket_timeout">Превышен таймаут получения данных с сервера</string>
+    <string name="error_serialization">Не удалось обработать полученные с сервера данные</string>
+    <string name="error_no_transformation_found">Сервер отправил неподдерживаемый тип данных</string>
+    <string name="error_network">Ошибка сети</string>
+    <string name="error_unknown">Неизвестная ошибка</string>
+    <!-- END ERRORS -->
+
+    <string name="copyright">© ЖКУ %1$d</string>
+
+    <plurals name="runtime_format">
+        <item quantity="one">%1$d minute</item>
+        <item quantity="other">%1$d minutes</item>
+    </plurals>
+
+    <string name="change_password_screen_title">Смена пароля</string>
+    <string name="change_password_confirmation_field_placeholder">Повторите пароль</string>
+    <string name="change_password_current_password_field_placeholder">Текущий пароль</string>
+    <string name="change_password_new_password_field_placeholder">Новый пароль</string>
+    <string name="change_password_great_phrase_label">Отлично!</string>
+    <string name="change_password_save_button">Сохранить</string>
+
+</resources>

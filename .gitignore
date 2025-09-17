@@ -1,0 +1,24 @@
+*.iml
+.gradle
+**/build/
+xcuserdata
+!src/**/build/
+local.properties
+.idea
+.DS_Store
+captures
+.externalNativeBuild
+.cxx
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata/
+!*.xcodeproj/project.xcworkspace/
+!*.xcworkspace/contents.xcworkspacedata
+**/xcshareddata/WorkspaceSettings.xcsettings
+/icons
+.kotlin
+/iosApp/Pods/Target Support Files/Pods-iosApp/Pods-iosApp-resources.sh
+/iosApp/Pods/Target Support Files/Pods-iosApp/Pods-iosApp-resources-Debug-input-files.xcfilelist
+/iosApp/Pods/Target Support Files/Pods-iosApp/Pods-iosApp-resources-Debug-output-files.xcfilelist
+/iosApp/Pods/Target Support Files/Pods-iosApp/Pods-iosApp-resources-Release-input-files.xcfilelist
+/iosApp/Pods/Target Support Files/Pods-iosApp/Pods-iosApp-resources-Release-output-files.xcfilelist

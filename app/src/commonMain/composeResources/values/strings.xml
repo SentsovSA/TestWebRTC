@@ -1,0 +1,56 @@
+<resources>
+    <string name="test">test</string>
+
+    <string name="login_screen_email_or_phone">Email or phone number</string>
+    <string name="login_screen_email">E-mail</string>
+    <string name="login_screen_password">Password</string>
+    <string name="login_screen_restore_password">Restore password</string>
+    <string name="login_screen_login_button">Sign In</string>
+    <string name="login_screen_registration_button">Sign Up</string>
+    <string name="login_screen_phone_or_password_error">Invalid phone number or password</string>
+    <string name="login_screen_email_or_password_error">Incorrect email or password</string>
+
+    <string name="registration_screen_title">Registration</string>
+    <string name="registration_screen_button">Register</string>
+    <string name="registration_screen_license_1">By clicking the button, you accept the\n</string>
+    <string name="registration_screen_license_2">license agreement</string>
+
+    <!-- BEGIN PHONE VERIFICATION -->
+    <string name="phone_verification_continue_button">Continue</string>
+    <string name="phone_verification_title">Enter your phone number</string>
+    <string name="phone_verification_tips">You will receive a SMS with code to %1$s</string>
+    <string name="phone_verification_registration">continue registration</string>
+    <string name="phone_verification_restore_password">restore password</string>
+    <string name="phone_verification_privacy_policy_part_1">By entering your number, you agree to the </string>
+    <string name="phone_verification_privacy_policy_part_2">Privacy Policy</string>
+    <string name="phone_verification_country_code_title">Country code</string>
+    <string name="phone_verification_user_already_exists">There is already an account registered for this phone number</string>
+    <string name="phone_verification_timeout">Request again in %1$d:%2$d:%3$d</string>
+    <string name="phone_verification_max_attempts">Maximum number of attempts reached. Try again in 2 hours.</string>
+    <!-- END PHONE VERIFICATION -->
+
+    <!-- BEGIN ERRORS -->
+    <string name="error_connect_timeout">Connection to server timed out</string>
+    <string name="error_request_timeout">Request timed out</string>
+    <string name="error_socket_timeout">The timeout for receiving data from the server has been exceeded</string>
+    <string name="error_serialization">Failed to process data received from the server</string>
+    <string name="error_no_transformation_found">The server sent an unsupported data type</string>
+    <string name="error_network">Network error</string>
+    <string name="error_unknown">Unknown error</string>
+    <!-- END ERRORS -->
+
+    <string name="copyright">© ZK Uslugi %1$d</string>
+
+    <plurals name="runtime_format">
+        <item quantity="one">%1$d minute</item>
+        <item quantity="other">%1$d minutes</item>
+    </plurals>
+
+    <string name="change_password_screen_title">Смена пароля</string>
+    <string name="change_password_confirmation_field_placeholder">Повторите пароль</string>
+    <string name="change_password_current_password_field_placeholder">Текущий пароль</string>
+    <string name="change_password_new_password_field_placeholder">Новый пароль</string>
+    <string name="change_password_great_phrase_label">Отлично!</string>
+    <string name="change_password_save_button">Сохранить</string>
+
+</resources>

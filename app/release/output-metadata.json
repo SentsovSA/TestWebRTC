@@ -1,0 +1,37 @@
+{
+  "version": 3,
+  "artifactType": {
+    "type": "APK",
+    "kind": "Directory"
+  },
+  "applicationId": "group.ost.zku",
+  "variantName": "release",
+  "elements": [
+    {
+      "type": "SINGLE",
+      "filters": [],
+      "attributes": [],
+      "versionCode": 100402,
+      "versionName": "1.4.1",
+      "outputFile": "group.ost.zku-release-1.4.1-100402-20250627085155.apk"
+    }
+  ],
+  "elementType": "File",
+  "baselineProfiles": [
+    {
+      "minApi": 28,
+      "maxApi": 30,
+      "baselineProfiles": [
+        "baselineProfiles/1/group.ost.zku-release-1.4.1-100402-20250627085155.dm"
+      ]
+    },
+    {
+      "minApi": 31,
+      "maxApi": 2147483647,
+      "baselineProfiles": [
+        "baselineProfiles/0/group.ost.zku-release-1.4.1-100402-20250627085155.dm"
+      ]
+    }
+  ],
+  "minSdkVersionForDexing": 28
+}

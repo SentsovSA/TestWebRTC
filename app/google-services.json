@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "400552306402",
+    "project_id": "zhku-fefe5",
+    "storage_bucket": "zhku-fefe5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:400552306402:android:0194b008734078d3b9e0bb",
+        "android_client_info": {
+          "package_name": "group.ost.zku"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAmFDkFyGSXRI_QNTzgQss0ZCYSf3KtGl0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

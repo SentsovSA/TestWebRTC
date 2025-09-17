@@ -1,0 +1,22 @@
+target 'iosApp' do
+  use_frameworks! :linkage => :static
+  platform :ios, '14.0'
+  pod 'app', :path => '../app'
+end
+
+post_install do |installer|
+  project_path = './iosApp.xcodeproj'
+  project = Xcodeproj::Project.open(project_path)
+  project.targets.each do |target|
+    if target.name == 'iosApp'
+      target.build_configurations.each do |config|
+        config.build_settings['LIBRARY_SEARCH_PATHS'] = ['$(inherited)']
+      end
+    end
+  end
+  project.save
+end
+
+pod 'Firebase/Messaging'
+pod 'Firebase/Crashlytics'
+pod 'Firebase/Analytics'
